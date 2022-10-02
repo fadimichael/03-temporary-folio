@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+
+@font-face {
+  font-family: athene;
+  src: url(../fonts/Athene.otf);
+}
+@font-face {
+  font-family: open-sans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+header {
+  background-color: #efe8d7;
+}
+/* ======= fixed nav bar ======= */
+.fixed-bar {
+  font-family: open-sans;
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.088rem;
+  padding: 1.1rem 16.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fixed {
+  width: 100vw;
+  padding-bottom: 1.1rem;
+  border-bottom: 0.2rem solid #042a5a;
+  background-color: transparent;
+  position: fixed;
+}
+.fixed-bar a {
+  text-decoration: none;
+  color: #042a5a;
+}
+/* ======= header ======= */
+.headline {
+  width: 80vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+h1 {
+  font-family: athene;
+  font-weight: normal;
+  font-size: 16rem;
+  color: #042a5a;
+  text-align: center;
+}
+h1 span {
+  letter-spacing: -1.5rem;
+  font-weight: -5rem;
+}
+hr {
+  height: 0.3rem;
+  background-color: #042a5a;
+}
+.headline img {
+  margin: 5rem auto;
+  width: 40rem;
+  height: 60rem;
+}
+.headline-para {
+  font-family: athene;
+  font-size: 2.4rem;
+  color: #042a5a;
+  width: 40rem;
+  text-align: left;
+  margin: auto;
+}
+.headline-para span {
+  font-family: open-sans;
+}
+/* ======= release ======= */
+.release {
+  background-color: #f4c4c4;
+}
+.page01 {
+  font-size: 1.8rem;
+  padding: 10rem 0rem 5rem 11.5rem;
+  font-family: open-sans;
+}
+
+.release h2 {
+  font-family: athene;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16rem;
+  line-height: 125%;
+  color: #282b29;
+  max-width: 50rem;
+  max-height: 40rem;
+}
+.release-para1 {
+  font-family: open-sans;
+  font-size: 1.8rem;
+  font-weight: 40rem;
+  max-width: 53.5rem;
+  max-height: 18rem;
+  margin-left: 81rem;
+  margin-bottom: 10rem;
+}
+.artic-01 {
+  max-width: 59.8rem;
+  margin-left: 74.2rem;
+  text-align: right;
+  font-family: open-sans;
+  font-size: 1.8rem;
+}
+.artic-01 hr {
+  color: #282b29;
+}
+.artic-01 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 3rem 0;
+  border-bottom: 0.1rem solid #282b29;
+}
+.artic-div-head {
+  font-size: 1.8rem;
+  margin-left: -30rem;
+}
+.artic-div-para {
+  max-width: 11rem;
+  max-height: 7.2rem;
+  text-align: right;
+}
+
+.svg {
+  width: 12rem;
+  height: 12rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+/* ======= Works ======= */
+
+.works {
+  background-color: #deb873;
+  color: #7d2222;
+}
+.page02 {
+  font-size: 1.8rem;
+  padding: 10rem 11.5rem 5rem 130.4rem;
+  font-family: open-sans;
+}
+
+.works h2 {
+  font-family: athene;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16rem;
+  line-height: 125%;
+  max-width: 50rem;
+  max-height: 40rem;
+  text-align: right;
+  margin-left: 110rem;
+  margin-right: 0rem;
+}
+.works-para1 {
+  font-family: open-sans;
+  font-size: 1.8rem;
+  font-weight: 40rem;
+  max-width: 53.5rem;
+  max-height: 18rem;
+  margin-left: 9.5rem;
+  margin-bottom: 19rem;
+}
+.artic-works-left {
+  display: flex;
+  margin-bottom: 25rem;
+}
+.artic-works-left div {
+  margin-right: -2rem;
+  z-index: 1;
+}
+.artic-works-left h3 {
+  font-family: Athene;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 140%;
+  margin-left: 9.5rem;
+}
+.artic-works-left img {
+  max-width: 74.7rem;
+  max-height: 42rem;
+  margin-right: 12rem;
+}
+.artic-works-right {
+  display: flex;
+  padding-bottom: 25rem;
+}
+.artic-works-right h3 {
+  font-family: Athene;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 140%;
+  margin-right: 9.5rem;
+  text-align: right;
+}
+.artic-works-right img {
+  max-width: 74.7rem;
+  max-height: 42rem;
+  margin-right: 12rem;
+  margin-left: 12rem;
+}
+
+/* ======= contact ======= */
+.contact {
+  background-color: #d2d2d2;
+  color: #388883;
+}
+.page03 {
+  font-size: 1.8rem;
+  padding: 10rem 0rem 5rem 11.5rem;
+  font-family: open-sans;
+}
+
+.contact h2 {
+  font-family: athene;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16rem;
+  line-height: 125%;
+  max-width: 50rem;
+  max-height: 40rem;
+  margin-bottom: 1.5rem;
+}
+.contact-para1 {
+  font-family: open-sans;
+  font-size: 1.8rem;
+  font-weight: 40rem;
+  max-width: 50rem;
+  max-height: 14.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  line-height: 200%;
+}
+
+.bottom-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  font-family: open-sans;
+  font-size: 2.4rem;
+  margin-right: 9.5rem;
+  padding-bottom: 10rem;
+  line-height: 200%;
+}
+.bottom-nav ul li a {
+  color: #388883;
+  text-decoration: none;
+}
+.bottom-nav ul li a:hover {
+  text-decoration: underline;
+}
