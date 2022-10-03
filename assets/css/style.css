@@ -28,7 +28,7 @@ header {
   font-size: 1.8rem;
   line-height: 2.5rem;
   letter-spacing: -0.088rem;
-  padding: 1.1rem 16.5rem;
+  margin: 1.1rem 16.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -106,11 +106,15 @@ hr {
 }
 .release-para1 {
   font-family: open-sans;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: 40rem;
+  line-height: 200%;
   max-width: 53.5rem;
-  max-height: 18rem;
-  margin-left: 81rem;
+  letter-spacing: 0.02rem;
+  max-height: 18.8rem;
+  margin-right: 10rem;
+  margin-left: auto;
   margin-bottom: 10rem;
 }
 .artic-01 {
@@ -119,6 +123,8 @@ hr {
   text-align: right;
   font-family: open-sans;
   font-size: 1.8rem;
+  margin-right: 10rem;
+  margin-left: auto;
 }
 .artic-01 hr {
   color: #282b29;
@@ -156,7 +162,10 @@ hr {
 }
 .page02 {
   font-size: 1.8rem;
-  padding: 10rem 11.5rem 5rem 130.4rem;
+  text-align: right;
+  padding-top: 10rem;
+  padding-right: 11.5rem;
+  padding-bottom: 5rem;
   font-family: open-sans;
 }
 
@@ -169,8 +178,8 @@ hr {
   max-width: 50rem;
   max-height: 40rem;
   text-align: right;
-  margin-left: 110rem;
   margin-right: 0rem;
+  margin-left: auto;
 }
 .works-para1 {
   font-family: open-sans;
@@ -198,8 +207,8 @@ hr {
   margin-left: 9.5rem;
 }
 .artic-works-left img {
-  max-width: 74.7rem;
-  max-height: 42rem;
+  max-width: 60rem;
+  max-height: 40rem;
   margin-right: 12rem;
 }
 .artic-works-right {
@@ -212,12 +221,12 @@ hr {
   font-weight: 400;
   font-size: 6.4rem;
   line-height: 140%;
-  margin-right: 9.5rem;
+  max-width: 57.3rem;
   text-align: right;
 }
 .artic-works-right img {
-  max-width: 74.7rem;
-  max-height: 42rem;
+  max-width: 60rem;
+  max-height: 40rem;
   margin-right: 12rem;
   margin-left: 12rem;
 }
