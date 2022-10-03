@@ -17,7 +17,11 @@ html {
   font-family: open-sans;
   src: url(../fonts/OpenSans-Regular.ttf);
 }
-
+.container {
+  max-width: 100vw;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
 header {
   background-color: #efe8d7;
 }
@@ -70,8 +74,8 @@ hr {
 }
 .headline img {
   margin: 5rem auto;
-  width: 40rem;
-  height: 60rem;
+  width: 40%;
+  height: 60%;
 }
 .headline-para {
   font-family: athene;
@@ -195,6 +199,7 @@ hr {
   margin-bottom: 25rem;
 }
 .artic-works-left div {
+  max-width: 60rem;
   margin-right: -2rem;
   z-index: 1;
 }
@@ -207,8 +212,8 @@ hr {
   margin-left: 9.5rem;
 }
 .artic-works-left img {
-  max-width: 60rem;
-  max-height: 40rem;
+  width: 50%;
+  /* max-height: 40%; */
   margin-right: 12rem;
 }
 .artic-works-right {
@@ -221,12 +226,12 @@ hr {
   font-weight: 400;
   font-size: 6.4rem;
   line-height: 140%;
-  max-width: 57.3rem;
+  width: 57.3rem;
   text-align: right;
 }
 .artic-works-right img {
-  max-width: 60rem;
-  max-height: 40rem;
+  width: 50%;
+  /* max-height: 40%; */
   margin-right: 12rem;
   margin-left: 12rem;
 }
